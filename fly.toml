@@ -43,6 +43,7 @@ console_command = 'php /var/www/html/artisan tinker'
   LOG_LEVEL='debug'
 
   DB_CONNECTION='sqlite'
+  DB_DATABASE=database/database.sqlite
 
   SESSION_DRIVER='database'
   SESSION_LIFETIME='120'
